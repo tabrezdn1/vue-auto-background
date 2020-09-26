@@ -1,12 +1,33 @@
 {
   "name": "vue-auto-background",
-  "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Saik Tabrez",
+    "email": "tabrezdn1@gmail.com"
+  },
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "main": "./dist/autoBackground.common.js",
+  "unpkg": "./dist/autoBackground.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-package": "vue-cli-service build --target lib --name autoWrite ./src/components/AutoBackground.vue"
   },
+  "keywords": [
+    "vue",
+    "vue-js",
+    "auto",
+    "background",
+    "autobackground",
+    "vue-auto-background"
+  ],
+  "description": "This is a vue component which updates the background with some set of cool colours. This can be used to change the colour automatically in a set of time period or manually. For Example: on a button click. And your HTML content is rendered as a slot.",
+  "repository": "github:tabrezdn1/vue-auto-background",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
