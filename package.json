@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-package": "vue-cli-service build --target lib --name autoWrite ./src/components/AutoBackground.vue"
+    "build-package": "vue-cli-service build --target lib --name autoBackground ./src/components/AutoBackground.vue"
   },
   "keywords": [
     "vue",
