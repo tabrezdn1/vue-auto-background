@@ -1,4 +1,4 @@
-# vue-autowrite 
+# vue-auto-background 
 
 
 ## Purpose
